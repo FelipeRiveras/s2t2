@@ -1,0 +1,4 @@
+#Tue Jun 12 21:42:14 CLT 2018
+base.0=/Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
