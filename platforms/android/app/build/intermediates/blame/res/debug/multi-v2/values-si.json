@@ -4,7 +4,22 @@
             "outputFile": "/Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
             "map": [
                 {
-                    "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/88a90709f707c111557039e2239b3fe5/res/values-si/values-si.xml",
+                    "source": "/Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e031e517c356ef3bb64660b74e17929f/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/cristopherherrera/Documents/Dev/Solemne/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml",
+            "map": [
+                {
+                    "source": "/Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e031e517c356ef3bb64660b74e17929f/res/values-si/values-si.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,19 +1,19 @@
 {
-  "_from": "cordova-sqlite-storage@latest",
+  "_from": "cordova-sqlite-storage@2.3",
   "_id": "cordova-sqlite-storage@2.3.2",
   "_inBundle": false,
   "_integrity": "sha512-rgWusdiGvRvSN9jshab6a+ZXGtzbVXq28+dHwiWJc8nCZpaOTmS9L5RB0757ckWUAkcGK/5B6Suqb4/SELdSgw==",
   "_location": "/cordova-sqlite-storage",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "cordova-sqlite-storage@latest",
+    "raw": "cordova-sqlite-storage@2.3",
     "name": "cordova-sqlite-storage",
     "escapedName": "cordova-sqlite-storage",
-    "rawSpec": "latest",
+    "rawSpec": "2.3",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "2.3"
   },
   "_requiredBy": [
     "#USER",
@@ -21,8 +21,8 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-sqlite-storage/-/cordova-sqlite-storage-2.3.2.tgz",
   "_shasum": "b87748d93dddfa65c82594fd3c35d62417fb2e18",
-  "_spec": "cordova-sqlite-storage@latest",
-  "_where": "/Users/cristopherherrera/Documents/Dev/T2S2",
+  "_spec": "cordova-sqlite-storage@2.3",
+  "_where": "/Users/cristopherherrera/Documents/Dev/Solemne",
   "author": {
     "name": "various"
   },

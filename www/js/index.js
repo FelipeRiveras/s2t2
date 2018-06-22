@@ -1,21 +1,27 @@
-var pos, errors = -1, x, user = new Object(), img, map, markers = new Array(), network = false, db;
+var pos, errors = -1, x, user, location, img = "", map, markers = new Array(), network = false, db, submit = false;
 function initMap(){
     map = new google.maps.Map(document.getElementById('map_canvas'),{
         center: {lat: -33.435360, lng: -70.614737}, 
         zoom: 15,
     });
+}
+function focusMap() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position){
+            pos = new Object();
+            pos.lat = position.coords.latitude;
+            pos.lng = position.coords.longitude;
             markers.push(
                 new google.maps.Marker({
-                    position: {lat: position.coords.latitude, lng: position.coords.longitude},
+                    position: pos,
                     map: map,
                     animation: google.maps.Animation.DROP,
                 })
             );
-            if (position.coords.latitude) {
-                pos = "lat:"+position.coords.latitude+", lng: "+position.coords.longitude;
+            if (pos.lat) {
+                pos = JSON.stringify(pos);
             } else {
+                alert("Active GPS!");
                 pos = "lat: -33.435360, lng: -70.614737";
             }
             map.setCenter({lat: position.coords.latitude, lng: position.coords.longitude});
@@ -24,62 +30,73 @@ function initMap(){
         }, {enableHighAccuracy: true});
     }
 
-    // markers.push(new google.maps.Marker({
-    //     map: map,
-    //     title: 'Tu sede',
-    //     position: {lat: lat, lng: lng}
-    // }));
-    // map.setCenter({lat: lat, lng: lng});
+    markers.push(new google.maps.Marker({
+        map: map,
+        title: 'Tu sede',
+        position: pos
+    }));
+    map.setCenter(pos);
 }
-
 document.addEventListener('deviceready', function(){
     $(document).ready(function(){
         $(window).on('load', function(){
             checkNetwork();
             initMap();
-            
+            if (navigator.geolocation) {
+                focusMap();
+            } else {
+                alert("Active GPS!");
+            }
+
             $('#submit').click(function(){
                 if (errors < 1) {
                     obtenerDatos();
-                    console.log(user);
                     if(network){
-                        $.ajax({
-                            type: 'POST',
-                            url: 'http://72.14.183.67/ws/s2/perfil.php',
-                            data: {
-                                foto: user['img'],
-                                nombres: user['firstName'],
-                                apellidos: user['lastName'],
-                                rut: user['run'],
-                                edad: user['age'],
-                                sexo: user['sexo'],
-                                email: user['email'],
-                                fono: user['fono'],
-                                carrera: user['carrera'],
-                                coordenadas: user['coordenadas'],
-                                fecha_creacion: user['fecha_creacion']
-                            },
-                            success: function(response){
-                                alert("PERFIL CREADO");
-                                $.ajax({
-                                    type: 'POST',
-                                    url: 'http://72.14.183.67/ws/s2/qr.php',
-                                    data: {
-                                        user: user['run'],
-                                        qr: 'http://72.14.183.67/ws/s2/archivos/'+user['run']+'.html'
-                                    },
-                                    success: function(response){
-                                        alert("QR CREADO!");
-                                    },
-                                    error: function(){
-                                        console.log(error);
+                        if (submit) {
+                            $.ajax({
+                                type: 'POST',
+                                url: 'http://72.14.183.67/ws/s2/perfil.php',
+                                data: {
+                                    foto: user['img'],
+                                    nombres: user['firstName'],
+                                    apellidos: user['lastName'],
+                                    rut: user['run'],
+                                    edad: user['age'],
+                                    sexo: user['sexo'],
+                                    email: user['email'],
+                                    fono: user['fono'],
+                                    carrera: user['carrera'],
+                                    coordenadas: user['coordenadas'],
+                                    fecha_creacion: user['fecha_creacion']
+                                },
+                                success: function(response){
+                                    let resp = JSON.parse(response);
+                                    if (resp.estado == true) {
+                                        alert(resp.msj);
+                                        $.ajax({
+                                            type: 'POST',
+                                            url: 'http://72.14.183.67/ws/s2/qr.php',
+                                            data: {
+                                                user: user['run'],
+                                                qr: 'http://72.14.183.67/ws/s2/archivos/'+user['run']+'.html'
+                                            },
+                                            success: function(resp){
+                                                let r = JSON.parse(resp);
+                                                alert(r.msj);
+                                            },
+                                            error: function(){
+                                                console.log(error);
+                                            }
+                                        });
+                                    } else {
+                                        alert(resp.msj);
                                     }
-                                });
-                            }, 
-                            error: function(error, response){
-                                console.log(response);
-                            }
-                        });
+                                }, 
+                                error: function(error, response){
+                                    console.log(response);
+                                }
+                            });
+                        }
                     } else {
                         insertBdd();
                     }
@@ -261,6 +278,13 @@ $('#carrera').blur(function(){
     }
   }
   function obtenerDatos() {
+    if(img == "") {
+        alert("Debe tomarse una foto");
+        return;
+    } else {
+        submit = true;
+    }
+    user = new Object();
     user['firstName'] = $('#name').val();
     user['lastName'] = $('#lastName').val();
     let aux = $('#run').val();
@@ -294,9 +318,9 @@ function checkNetwork() {
             db.transaction(function (txn) {
                 txn.executeSql('CREATE TABLE IF NOT EXISTS alumno (id_alumno integer primary key auto increment, foto, nombres, apellidos, edad, rut, sexo, email, fono, carrera, coordenadas, fecha_creacion)');
             });
-        } else {
-            network = true;
-        }
+    } else {
+        network = true;
+    }
 }
 function insertBdd(){
     db.transaction(function(txn){

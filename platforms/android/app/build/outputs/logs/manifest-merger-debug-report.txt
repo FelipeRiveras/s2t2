@@ -15,18 +15,18 @@ ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src
 INJECTED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
-MERGED from [:barcodescanner-release-2.1.5:] /private/var/root/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:support-v4:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/94e5929d76728f8c380bcc45d3e2e7b1/AndroidManifest.xml:17:1-22:12
+MERGED from [:barcodescanner-release-2.1.5:] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8f81ca14a236e0e78b753da268e5b3f8/AndroidManifest.xml:17:1-22:12
 MERGED from [:CordovaLib] /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/b490fecc66543f00c340adc9f15b5eda/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/68743591cf486b89c517cc04d03e1436/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6b784f528d1d1f056dce4477fbcb1b78/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/9b1070919920f01a329980f1ba6e2386/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/88a90709f707c111557039e2239b3fe5/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/af89341093eadb94c7356d3ca062d955/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3f5bbb164e289d6e495b24afb0633732/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0e7594db5119cebf579569f6021b0aae/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f59bf859858de60dc1fd1cc8560c9207/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/83881412c5784c9ad4571bf1223f75fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/136975876c8dc1e615593c8b4f3efa98/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ccb8ffb5bad9c20bab1cd2ad4196f63a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/ddf217e789dea4bc513d4b6e3b7e3c0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e031e517c356ef3bb64660b74e17929f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3aab4e8e910c4689a8d207029580b791/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/619ddd02c3eb68bfe64aa237e0d0f2d6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3d4358bea580db4d8cab05dcfd48ce77/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4b6a57aac98a82543b0e153dcfbacc82/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
 INJECTED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:2:1-27:12
@@ -66,8 +66,8 @@ ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src
 		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
 ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:5:5-17:19
-MERGED from [:barcodescanner-release-2.1.5:] /private/var/root/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:11:5-12:19
-MERGED from [:barcodescanner-release-2.1.5:] /private/var/root/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:11:5-12:19
+MERGED from [:barcodescanner-release-2.1.5:] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:11:5-12:19
+MERGED from [:barcodescanner-release-2.1.5:] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:11:5-12:19
 	android:supportsRtl
 		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
 	android:label
@@ -124,30 +124,30 @@ ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src
 		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:16:41-109
 uses-sdk
 ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:18:5-74
-MERGED from [:barcodescanner-release-2.1.5:] /private/var/root/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:7:5-9:41
-MERGED from [:barcodescanner-release-2.1.5:] /private/var/root/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/94e5929d76728f8c380bcc45d3e2e7b1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/94e5929d76728f8c380bcc45d3e2e7b1/AndroidManifest.xml:20:5-44
+MERGED from [:barcodescanner-release-2.1.5:] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:7:5-9:41
+MERGED from [:barcodescanner-release-2.1.5:] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/5f4a2a9b00e61be022d99a627cbeaab9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8f81ca14a236e0e78b753da268e5b3f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/8f81ca14a236e0e78b753da268e5b3f8/AndroidManifest.xml:20:5-44
 MERGED from [:CordovaLib] /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/b490fecc66543f00c340adc9f15b5eda/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/b490fecc66543f00c340adc9f15b5eda/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/68743591cf486b89c517cc04d03e1436/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/68743591cf486b89c517cc04d03e1436/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6b784f528d1d1f056dce4477fbcb1b78/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/6b784f528d1d1f056dce4477fbcb1b78/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/9b1070919920f01a329980f1ba6e2386/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/9b1070919920f01a329980f1ba6e2386/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/88a90709f707c111557039e2239b3fe5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/88a90709f707c111557039e2239b3fe5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/af89341093eadb94c7356d3ca062d955/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/af89341093eadb94c7356d3ca062d955/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3f5bbb164e289d6e495b24afb0633732/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/3f5bbb164e289d6e495b24afb0633732/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0e7594db5119cebf579569f6021b0aae/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0e7594db5119cebf579569f6021b0aae/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f59bf859858de60dc1fd1cc8560c9207/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f59bf859858de60dc1fd1cc8560c9207/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/83881412c5784c9ad4571bf1223f75fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/83881412c5784c9ad4571bf1223f75fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/136975876c8dc1e615593c8b4f3efa98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/136975876c8dc1e615593c8b4f3efa98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ccb8ffb5bad9c20bab1cd2ad4196f63a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/ccb8ffb5bad9c20bab1cd2ad4196f63a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/ddf217e789dea4bc513d4b6e3b7e3c0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/ddf217e789dea4bc513d4b6e3b7e3c0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e031e517c356ef3bb64660b74e17929f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e031e517c356ef3bb64660b74e17929f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3aab4e8e910c4689a8d207029580b791/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3aab4e8e910c4689a8d207029580b791/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/619ddd02c3eb68bfe64aa237e0d0f2d6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/619ddd02c3eb68bfe64aa237e0d0f2d6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3d4358bea580db4d8cab05dcfd48ce77/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/3d4358bea580db4d8cab05dcfd48ce77/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4b6a57aac98a82543b0e153dcfbacc82/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/cristopherherrera/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4b6a57aac98a82543b0e153dcfbacc82/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:18:42-71
 	android:minSdkVersion
@@ -168,24 +168,24 @@ uses-feature#android.hardware.location.gps
 ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:22:5-66
 	android:name
 		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:22:19-63
-uses-permission#android.permission.CAMERA
-ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:23:5-65
-	android:name
-		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:23:22-62
-uses-permission#android.permission.FLASHLIGHT
-ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:24:5-69
-	android:name
-		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:24:22-66
-uses-feature#android.hardware.camera
-ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:25:5-84
-	android:required
-		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:25:58-81
-	android:name
-		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:25:19-57
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:26:5-79
+ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:26:22-76
+		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:24:5-65
+	android:name
+		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:24:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:25:5-69
+	android:name
+		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:25:22-66
+uses-feature#android.hardware.camera
+ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:26:5-84
+	android:required
+		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:26:58-81
+	android:name
+		ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:26:19-57
 meta-data#android.support.FILE_PROVIDER_PATHS
 ADDED from /Users/cristopherherrera/Documents/Dev/T2S2/platforms/android/app/src/main/AndroidManifest.xml:13:13-123
 	android:resource
